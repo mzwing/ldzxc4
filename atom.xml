@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mzwing.github.io</id>
     <title>Gridea</title>
-    <updated>2020-08-04T12:23:47.003Z</updated>
+    <updated>2020-08-04T12:36:00.740Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mzwing.github.io"/>
     <link rel="self" href="https://mzwing.github.io/atom.xml"/>
@@ -10,13 +10,4 @@
     <logo>https://mzwing.github.io/images/avatar.png</logo>
     <icon>https://mzwing.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
-    <entry>
-        <title type="html"><![CDATA[友链分享]]></title>
-        <id>https://mzwing.github.io/post/friend/</id>
-        <link href="https://mzwing.github.io/post/friend/">
-        </link>
-        <updated>2020-08-04T12:04:23.000Z</updated>
-        <content type="html"><![CDATA[<p>白羊李志远的博客：</p>
-]]></content>
-    </entry>
 </feed>
