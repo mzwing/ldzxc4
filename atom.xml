@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mzwing.github.io</id>
     <title>洛仙璃的博客</title>
-    <updated>2020-08-05T10:32:28.156Z</updated>
+    <updated>2020-08-05T10:59:34.304Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mzwing.github.io"/>
     <link rel="self" href="https://mzwing.github.io/atom.xml"/>
@@ -10,4 +10,13 @@
     <logo>https://mzwing.github.io/images/avatar.png</logo>
     <icon>https://mzwing.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 洛仙璃的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[照例发个欢迎贴呗]]></title>
+        <id>https://mzwing.github.io/post/zhao-li-fa-ge-huan-ying-tie-bai/</id>
+        <link href="https://mzwing.github.io/post/zhao-li-fa-ge-huan-ying-tie-bai/">
+        </link>
+        <updated>2020-08-05T10:58:43.000Z</updated>
+        <content type="html"><![CDATA[<p>欢迎来到我的博客！</p>
+]]></content>
+    </entry>
 </feed>
