@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mzwing.github.io</id>
     <title>洛仙璃的博客</title>
-    <updated>2020-08-07T05:13:36.807Z</updated>
+    <updated>2020-08-07T05:17:10.087Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mzwing.github.io"/>
     <link rel="self" href="https://mzwing.github.io/atom.xml"/>
@@ -16,7 +16,8 @@
         <link href="https://mzwing.github.io/post/zhao-li-fa-ge-huan-ying-tie-bai/">
         </link>
         <updated>2020-08-05T10:58:43.000Z</updated>
-        <content type="html"><![CDATA[<p>欢迎来到我的博客！</p>
+        <content type="html"><![CDATA[<p>欢迎来到我的博客！<br>
+评论功能基于Gitalk功能实现，所以可能需要登录Github账号才能评论。</p>
 ]]></content>
     </entry>
 </feed>
