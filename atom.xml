@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mzwing.github.io</id>
-    <title>洛仙璃的博客</title>
-    <updated>2020-08-10T09:25:46.244Z</updated>
+    <title>洛仙璃の幻梦</title>
+    <updated>2020-08-11T02:59:27.839Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mzwing.github.io"/>
     <link rel="self" href="https://mzwing.github.io/atom.xml"/>
     <subtitle>如光似幻，如影随形</subtitle>
     <logo>https://mzwing.github.io/images/avatar.png</logo>
     <icon>https://mzwing.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 洛仙璃的博客</rights>
+    <rights>All rights reserved 2020, 洛仙璃の幻梦</rights>
     <entry>
-        <title type="html"><![CDATA[照例发个欢迎贴呗]]></title>
+        <title type="html"><![CDATA[欢迎]]></title>
         <id>https://mzwing.github.io/post/zhao-li-fa-ge-huan-ying-tie-bai/</id>
         <link href="https://mzwing.github.io/post/zhao-li-fa-ge-huan-ying-tie-bai/">
         </link>
         <updated>2020-08-05T10:58:43.000Z</updated>
-        <content type="html"><![CDATA[<p>欢迎来到我的博客！<br>
+        <content type="html"><![CDATA[<p>欢迎来到我的梦境<br>
 评论功能基于Gitalk功能实现，所以可能需要登录Github账号才能评论。</p>
 ]]></content>
     </entry>
