@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mzwing.github.io</id>
     <title>洛仙璃の幻梦</title>
-    <updated>2020-08-12T11:51:38.932Z</updated>
+    <updated>2020-08-12T13:37:36.739Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mzwing.github.io"/>
     <link rel="self" href="https://mzwing.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://mzwing.github.io/images/avatar.png</logo>
     <icon>https://mzwing.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 洛仙璃の幻梦</rights>
+    <entry>
+        <title type="html"><![CDATA[Deepin漫谈]]></title>
+        <id>https://mzwing.github.io/post/deepin-man-tan/</id>
+        <link href="https://mzwing.github.io/post/deepin-man-tan/">
+        </link>
+        <updated>2020-08-12T13:33:38.000Z</updated>
+        <content type="html"><![CDATA[<p>啊这，既然是漫谈就不要有什么客套话了吧……<br>
+感觉吧，deepin官方应该把迅雷极速版改成迅雷（wine），看见贴吧里一堆赞迅雷的……真不知道说什么好，就是不知道V20 Beta改掉这个毛病没有</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[投稿使我快乐~]]></title>
         <id>https://mzwing.github.io/post/tou-gao-shi-wo-kuai-le/</id>
