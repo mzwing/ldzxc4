@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mzwing.github.io</id>
     <title>洛仙璃の幻梦</title>
-    <updated>2020-08-13T06:08:30.623Z</updated>
+    <updated>2020-08-13T07:28:30.846Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mzwing.github.io"/>
     <link rel="self" href="https://mzwing.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://mzwing.github.io/images/avatar.png</logo>
     <icon>https://mzwing.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 洛仙璃の幻梦</rights>
+    <entry>
+        <title type="html"><![CDATA[啊啊啊啊啊啊我太蓝了]]></title>
+        <id>https://mzwing.github.io/post/a-a-a-a-a-a-wo-tai-lan-liao/</id>
+        <link href="https://mzwing.github.io/post/a-a-a-a-a-a-wo-tai-lan-liao/">
+        </link>
+        <updated>2020-08-13T07:22:26.000Z</updated>
+        <content type="html"><![CDATA[<p>学而思网校的红包我居然从来没上过二位数……一次都没中过奖……这……<br>
+我都怀疑我前世非酋……</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Deepin漫谈]]></title>
         <id>https://mzwing.github.io/post/deepin-man-tan/</id>
