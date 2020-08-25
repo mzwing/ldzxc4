@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://mzwing.github.io</id>
+    <id>https://lxcl.gq</id>
     <title>洛仙璃の幻梦</title>
-    <updated>2020-08-21T03:49:58.493Z</updated>
+    <updated>2020-08-25T09:52:55.268Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://mzwing.github.io"/>
-    <link rel="self" href="https://mzwing.github.io/atom.xml"/>
+    <link rel="alternate" href="https://lxcl.gq"/>
+    <link rel="self" href="https://lxcl.gq/atom.xml"/>
     <subtitle>&lt;style=&quot;color:grey&quot;&gt;&lt;b&gt;*每日一言&lt;/b&gt;：「&lt;a href=&quot;#&quot; id=&quot;hitokoto_link&quot; target=_blank&gt;&lt;span
                     id=&quot;hitokoto&quot;&gt;*&lt;script src=&quot;https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js&quot;&gt;&lt;/script&gt;
 &lt;script&gt;
@@ -14,13 +14,13 @@
              
             });
 &lt;/script&gt;&lt;/span&gt;&lt;/a&gt;」 &lt;a href=&quot;#&quot; onclick=&quot;update_hitokoto()&quot;&gt;换一条&lt;/a&gt;&lt;/p&gt;</subtitle>
-    <logo>https://mzwing.github.io/images/avatar.png</logo>
-    <icon>https://mzwing.github.io/favicon.ico</icon>
+    <logo>https://lxcl.gq/images/avatar.png</logo>
+    <icon>https://lxcl.gq/favicon.ico</icon>
     <rights>All rights reserved 2020, 洛仙璃の幻梦</rights>
     <entry>
         <title type="html"><![CDATA[学而思数学暑期班最后一课~]]></title>
-        <id>https://mzwing.github.io/post/xzh/</id>
-        <link href="https://mzwing.github.io/post/xzh/">
+        <id>https://lxcl.gq/post/xzh/</id>
+        <link href="https://lxcl.gq/post/xzh/">
         </link>
         <updated>2020-08-15T08:35:33.000Z</updated>
         <content type="html"><![CDATA[ <iframe id="bgmplayer" class="bgmplayer" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&;auto=0&height=66&amp;id=27928001"></iframe>
@@ -28,8 +28,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[【转】《崩坏国记最终章：星与你消失之日》先行CG发布！]]></title>
-        <id>https://mzwing.github.io/post/lesslessbeng-pi-guo-ji-zui-zhong-zhang-xing-yu-ni-xiao-shi-zhi-ri-greatergreater-xian-xing-cg-fa-bu/</id>
-        <link href="https://mzwing.github.io/post/lesslessbeng-pi-guo-ji-zui-zhong-zhang-xing-yu-ni-xiao-shi-zhi-ri-greatergreater-xian-xing-cg-fa-bu/">
+        <id>https://lxcl.gq/post/lesslessbeng-pi-guo-ji-zui-zhong-zhang-xing-yu-ni-xiao-shi-zhi-ri-greatergreater-xian-xing-cg-fa-bu/</id>
+        <link href="https://lxcl.gq/post/lesslessbeng-pi-guo-ji-zui-zhong-zhang-xing-yu-ni-xiao-shi-zhi-ri-greatergreater-xian-xing-cg-fa-bu/">
         </link>
         <updated>2020-08-14T06:36:37.000Z</updated>
         <content type="html"><![CDATA[<p>转自bilibili  up主  崩坏3</p>
@@ -37,8 +37,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[啊啊啊啊啊啊我太蓝了]]></title>
-        <id>https://mzwing.github.io/post/a-a-a-a-a-a-wo-tai-lan-liao/</id>
-        <link href="https://mzwing.github.io/post/a-a-a-a-a-a-wo-tai-lan-liao/">
+        <id>https://lxcl.gq/post/a-a-a-a-a-a-wo-tai-lan-liao/</id>
+        <link href="https://lxcl.gq/post/a-a-a-a-a-a-wo-tai-lan-liao/">
         </link>
         <updated>2020-08-13T07:22:26.000Z</updated>
         <content type="html"><![CDATA[<p>学而思网校的红包我居然从来没上过二位数……一次都没中过奖……这……<br>
@@ -47,8 +47,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Deepin漫谈]]></title>
-        <id>https://mzwing.github.io/post/deepin-man-tan/</id>
-        <link href="https://mzwing.github.io/post/deepin-man-tan/">
+        <id>https://lxcl.gq/post/deepin-man-tan/</id>
+        <link href="https://lxcl.gq/post/deepin-man-tan/">
         </link>
         <updated>2020-08-12T13:33:38.000Z</updated>
         <content type="html"><![CDATA[<p>啊这，既然是漫谈就不要有什么客套话了吧……</p>
@@ -62,8 +62,8 @@ shenmo那边还wine了一些比如Neat Downloader等等的下载工具，不过�
     </entry>
     <entry>
         <title type="html"><![CDATA[投稿使我快乐~]]></title>
-        <id>https://mzwing.github.io/post/tou-gao-shi-wo-kuai-le/</id>
-        <link href="https://mzwing.github.io/post/tou-gao-shi-wo-kuai-le/">
+        <id>https://lxcl.gq/post/tou-gao-shi-wo-kuai-le/</id>
+        <link href="https://lxcl.gq/post/tou-gao-shi-wo-kuai-le/">
         </link>
         <updated>2020-08-11T11:13:04.000Z</updated>
         <content type="html"><![CDATA[<p>@白羊李志远</p>
@@ -71,8 +71,8 @@ shenmo那边还wine了一些比如Neat Downloader等等的下载工具，不过�
     </entry>
     <entry>
         <title type="html"><![CDATA[欢迎]]></title>
-        <id>https://mzwing.github.io/post/welcome/</id>
-        <link href="https://mzwing.github.io/post/welcome/">
+        <id>https://lxcl.gq/post/welcome/</id>
+        <link href="https://lxcl.gq/post/welcome/">
         </link>
         <updated>2020-08-05T10:58:43.000Z</updated>
         <content type="html"><![CDATA[<p>欢迎来到我的博客<br>

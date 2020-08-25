@@ -1,77 +1,145 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>资源 | 洛仙璃の幻梦</title>
-<link rel="shortcut icon" href="https://mzwing.github.io/favicon.ico?v=1597981793917">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://mzwing.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="资源 | 洛仙璃の幻梦 - Atom Feed" href="https://mzwing.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+<meta name="description" content="&lt;style=&#34;color:grey&#34;&gt;&lt;b&gt;*每日一言&lt;/b&gt;：「&lt;a href=&#34;#&#34; id=&#34;hitokoto_link&#34; target=_blank&gt;&lt;span
+                    id=&#34;hitokoto&#34;&gt;*&lt;script src=&#34;https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+ $.get(&#34;https://v1.hitokoto.cn/?c=e&#34;, function (data, status) {
+                $(&#34;.site-description&#34;).append(&#34;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;&#34;+data.hitokoto);
+             
+            });
+&lt;/script&gt;&lt;/span&gt;&lt;/a&gt;」 &lt;a href=&#34;#&#34; onclick=&#34;update_hitokoto()&#34;&gt;换一条&lt;/a&gt;&lt;/p&gt;">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://lxcl.gq/favicon.ico?v=1598349171762">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://lxcl.gq/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
-    <meta name="description" content="欢迎光临我的资源分享站！
-🤝 下载站投递说明：
-投递资源一律请投递到我的邮箱，邮箱地址详见“关于”。
-邮件标题必须为“投递：XXX（填写要投递的名称）。邮件内容包括：名称；简介；分享者；文件下载地址：推荐使用百度网盘或坚果云，有蓝奏云的话..." />
-    <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://mzwing.github.io">
-  <img class="avatar" src="https://mzwing.github.io/images/avatar.png?v=1597981793917" alt="">
-  </a>
-  <h1 class="site-title">
-    洛仙璃の幻梦
-  </h1>
-  <p class="site-description">
-    <style="color:grey"><b>*每日一言</b>：「<a href="#" id="hitokoto_link" target=_blank><span
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://lxcl.gq">
+        <img class="avatar" src="https://lxcl.gq/images/avatar.png?v=1598349171762" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://lxcl.gq">
+        <h1 class="site-title">洛仙璃の幻梦</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://mzwing.github.io/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="https://mzwing.github.io/post/friend" class="menu purple-link">
+            友链
+          </a>
+        
+      
+        
+          <a href="https://mzwing.github.io/post/download" class="menu purple-link">
+            资源
+          </a>
+        
+      
+        
+          <a href="https://mzwing.github.io/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">资源</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-08-06</span>
+            
+          </div>
+          <div class="post-content">
+            <p>欢迎光临我的资源分享站！</p>
+<h2 id="下载站投递说明">🤝 下载站投递说明：</h2>
+<p>投递资源一律请投递到我的邮箱，邮箱地址详见“关于”。<br>
+邮件标题必须为“投递：XXX（填写要投递的名称）。邮件内容包括：名称；简介；分享者；文件下载地址：推荐使用百度网盘或坚果云，有蓝奏云的话最好用蓝奏云，当然有别的高速下载链接也行（或者直接发附件给我）</p>
+<h2 id="学习资源分享">🤝 学习资源分享：</h2>
+<p>1.名称：中图版地理八年级下册课件：<br>
+简介：暑假作业有一部分八年级下册的地理，就在这里分享一下课件吧<br>
+分享者：LZW<br>
+下载地址：<br>
+百度云：链接：https://pan.baidu.com/s/1Jdf_K4BA5o5ECoODCI6TOA   提取码：5ibx<br>
+坚果云：链接：https://www.jianguoyun.com/p/DfGPtE0Qpqq0CBiy7LAD</p>
+
+          </div>
+        </div>
+
+        
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan"><style="color:grey"><b>*每日一言</b>：「<a href="#" id="hitokoto_link" target=_blank><span
                     id="hitokoto">*<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
 <script>
  $.get("https://v1.hitokoto.cn/?c=e", function (data, status) {
                 $(".site-description").append("</p><br /><p>"+data.hitokoto);
              
             });
-</script></span></a>」 <a href="#" onclick="update_hitokoto()">换一条</a></p>
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="https://mzwing.github.io/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="https://mzwing.github.io/post/friend" class="menu">
-          友链
-        </a>
-      
-    
-      
-        <a href="https://mzwing.github.io/post/download" class="menu">
-          资源
-        </a>
-      
-    
-      
-        <a href="https://mzwing.github.io/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
+</script></span></a>」 <a href="#" onclick="update_hitokoto()">换一条</a></p></div>
   <div class="social-container">
     
       
@@ -85,84 +153,6 @@
       
     
   </div>
-</div>
-
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              资源
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-08-06
-              </span>
-              <span>
-                1 min read
-              </span>
-              
-            </div>
-            
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>欢迎光临我的资源分享站！</p>
-<h2 id="下载站投递说明">🤝 下载站投递说明：</h2>
-<p>投递资源一律请投递到我的邮箱，邮箱地址详见“关于”。<br>
-邮件标题必须为“投递：XXX（填写要投递的名称）。邮件内容包括：名称；简介；分享者；文件下载地址：推荐使用百度网盘或坚果云，有蓝奏云的话最好用蓝奏云，当然有别的高速下载链接也行（或者直接发附件给我）</p>
-<h2 id="学习资源分享">🤝 学习资源分享：</h2>
-<p>1.名称：中图版地理八年级下册课件：<br>
-简介：暑假作业有一部分八年级下册的地理，就在这里分享一下课件吧<br>
-分享者：LZW<br>
-下载地址：<br>
-百度云：链接：https://pan.baidu.com/s/1Jdf_K4BA5o5ECoODCI6TOA   提取码：5ibx<br>
-坚果云：链接：https://www.jianguoyun.com/p/DfGPtE0Qpqq0CBiy7LAD</p>
-
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E4%B8%8B%E8%BD%BD%E7%AB%99%E6%8A%95%E9%80%92%E8%AF%B4%E6%98%8E">🤝 下载站投递说明：</a></li>
-<li><a href="#%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB">🤝 学习资源分享：</a></li>
-</ul>
-</li>
-</ul>
-
-              </div>
-            </div>
-          </article>
-        </div>
-
-        
-
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: 'aa77f2e2a5ee0834fc68',
-    clientSecret: '3486878523cbb265805aa3b63f5881eeabc7e73f',
-    repo: 'comments',
-    owner: 'mzwing',
-    admin: ['mzwing'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
-
-        <div class="site-footer">
   <style>
         .bgmplayer {
             position: absolute;
@@ -183,54 +173,49 @@
  <iframe id="bgmplayer" class="bgmplayer" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&;auto=0&height=66&amp;id=27928001"></iframe>
 
 <a href="https://travellings.now.sh/" target="blank" title="开往-友链接力" class="travelling"><img
-                src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a>
-  <a class="rss" href="https://mzwing.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
+                src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a> | <a class="rss" href="https://lxcl.gq/atom.xml" target="_blank">RSS</a>
 </div>
 
-      </div>
+
     </div>
+    <script type="application/javascript">
 
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
     <script>
-      hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+      var gitalk = new Gitalk({
+        clientID: 'aa77f2e2a5ee0834fc68',
+        clientSecret: '3486878523cbb265805aa3b63f5881eeabc7e73f',
+        repo: 'comments',
+        owner: 'mzwing',
+        admin: ['mzwing'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
-
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
-
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
+      gitalk.render('gitalk-container')
 
     </script>
+  
+
+  
+
+
+
+
   </body>
 </html>
