@@ -6,20 +6,13 @@
 <meta charset="utf-8" >
 
 <title>Deepin漫谈 | 洛仙璃の幻梦</title>
-<meta name="description" content="&lt;style=&#34;color:grey&#34;&gt;&lt;b&gt;*每日一言&lt;/b&gt;：「&lt;a href=&#34;#&#34; id=&#34;hitokoto_link&#34; target=_blank&gt;&lt;span
-                    id=&#34;hitokoto&#34;&gt;*&lt;script src=&#34;https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js&#34;&gt;&lt;/script&gt;
-&lt;script&gt;
- $.get(&#34;https://v1.hitokoto.cn/?c=e&#34;, function (data, status) {
-                $(&#34;.site-description&#34;).append(&#34;&lt;/p&gt;&lt;br /&gt;&lt;p&gt;&#34;+data.hitokoto);
-             
-            });
-&lt;/script&gt;&lt;/span&gt;&lt;/a&gt;」 &lt;a href=&#34;#&#34; onclick=&#34;update_hitokoto()&#34;&gt;换一条&lt;/a&gt;&lt;/p&gt;">
+<meta name="description" content="">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://lxcl.gq/favicon.ico?v=1598349171762">
+<link rel="shortcut icon" href="https://lxcl.gq/favicon.ico?v=1598429326286">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://lxcl.gq/styles/main.css">
 
@@ -43,7 +36,7 @@
   <div class="site-header">
     <div class="left">
       <a href="https://lxcl.gq">
-        <img class="avatar" src="https://lxcl.gq/images/avatar.png?v=1598349171762" alt="" width="32px" height="32px">
+        <img class="avatar" src="https://lxcl.gq/images/avatar.png?v=1598429326286" alt="" width="32px" height="32px">
       </a>
       <a href="https://lxcl.gq">
         <h1 class="site-title">洛仙璃の幻梦</h1>
@@ -153,14 +146,7 @@ shenmo那边还wine了一些比如Neat Downloader等等的下载工具，不过�
       
 
       <div class="site-footer">
-  <div class="slogan"><style="color:grey"><b>*每日一言</b>：「<a href="#" id="hitokoto_link" target=_blank><span
-                    id="hitokoto">*<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
-<script>
- $.get("https://v1.hitokoto.cn/?c=e", function (data, status) {
-                $(".site-description").append("</p><br /><p>"+data.hitokoto);
-             
-            });
-</script></span></a>」 <a href="#" onclick="update_hitokoto()">换一条</a></p></div>
+  <div class="slogan"></div>
   <div class="social-container">
     
       
@@ -174,27 +160,23 @@ shenmo那边还wine了一些比如Neat Downloader等等的下载工具，不过�
       
     
   </div>
-  <style>
-        .bgmplayer {
-            position: absolute;
-            ;
-            top: 0;
-            right: 0;
-            z-index: 999;
-        }
+  <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<script>
+function update_hitokoto(){
+    $.get("https://v1.hitokoto.cn/?c=e", function (data, status) {
+        $("#qaq").html("");
+        $(".content-container").html("<p id='qaq'><br /><br />「"+data.hitokoto+"」<a href='#' onclick='update_hitokoto()'>换一条</a></p>"+$(".content-container").html());
+    });
 
-        @media (max-width: 858px) {
-            .bgmplayer {
-                display: none;
-            }
+}
+
+update_hitokoto();
+</script>
 
 
-        }
-    </style>
- <iframe id="bgmplayer" class="bgmplayer" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&;auto=0&height=66&amp;id=27928001"></iframe>
+<iframe style="position: absolute!important;bottom: 0!important; right: 0!important;z-index: 99999!important;" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&;;auto=0&height=66&amp;id=27928001"></iframe>
 
-<a href="https://travellings.now.sh/" target="blank" title="开往-友链接力" class="travelling"><img
-                src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a> | <a class="rss" href="https://lxcl.gq/atom.xml" target="_blank">RSS</a>
+<a href="https://travellings.now.sh/" target="blank" title="开往-友链接力" class="travelling"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a> | <a class="rss" href="https://lxcl.gq/atom.xml" target="_blank">RSS</a>
 </div>
 
 
