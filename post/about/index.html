@@ -1,18 +1,16 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>关于 | 洛仙璃の幻梦</title>
 <meta name="description" content="">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link rel="shortcut icon" href="https://lxcl.gq/favicon.ico?v=1599301864588">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://lxcl.gq/favicon.ico?v=1599301014430">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://lxcl.gq/styles/main.css">
 
@@ -23,88 +21,96 @@
 
   
 
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://lxcl.gq">
-        <img class="avatar" src="https://lxcl.gq/images/avatar.png?v=1599301014430" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://lxcl.gq">
-        <h1 class="site-title">洛仙璃の幻梦</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://lxcl.gq">洛仙璃の幻梦</a></h3>
   </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
         
-          <a href="https://lxcl.gq" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="https://lxcl.gq/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="https://lxcl.gq/post/friend" class="menu purple-link">
-            友链
-          </a>
-        
-      
-        
-          <a href="https://lxcl.gq/post/gtdts" class="menu purple-link">
-            投稿箱
-          </a>
-        
-      
-        
-          <a href="https://lxcl.gq/post/share" class="menu purple-link">
-            资源
-          </a>
-        
-      
-        
-          <a href="https://lxcl.gq/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">关于</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2019-01-25</span>
+          <li>
             
-          </div>
-          <div class="post-content">
-            <blockquote>
+              <a href="https://lxcl.gq" class="menu">
+                首页
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://lxcl.gq/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://lxcl.gq/post/friend" class="menu">
+                友链
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://lxcl.gq/post/gtdts" class="menu">
+                投稿箱
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://lxcl.gq/post/share" class="menu">
+                资源
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://lxcl.gq/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>关于</h1>
+            <p class="article-meta">
+              2019-01-25
+              
+            </p>
+            
+            <div class="post-content">
+              <blockquote>
 <p>欢迎来到我的个人博客，很高兴遇见你！🤝</p>
 </blockquote>
 <h2 id="关于本站">🏠 关于本站</h2>
@@ -139,36 +145,101 @@ CPU  第2代 Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz（2501 MHz）<br>
 声卡  Realtek High Definition Audio<br>
 网卡  Atheros AR5B97 Wireless Network Adapter</p>
 
-          </div>
+            </div>
+          </article>
         </div>
+        <div class="paper" data-aos="fade-in">
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
 
+          
         
       </div>
 
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://lxcl.gq/images/avatar.png?v=1599301864588" class="no-responsive avatar">
+    <div class="text-muted"></div>
+    <div class="social-container">
       
         
-          <div id="gitalk-container"></div>
-        
-
+      
         
       
-
-      <div class="site-footer">
-  <div class="slogan"></div>
-  <div class="social-container">
-    
+        
       
-    
+        
       
-    
+        
       
-    
-      
-    
-      
-    
+    </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://lxcl.gq/post/gtdts/">投稿箱</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://lxcl.gq/post/zbbh/">【转】《崩坏国记最终章：星与你消失之日》先行CG发布！</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://lxcl.gq/post/share/">资源</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://lxcl.gq/post/welcome/">欢迎</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://lxcl.gq/post/friend/">友链</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://lxcl.gq/post/about/">关于</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://lxcl.gq/tag/bvTJulZqg/" class="badge warning">
+          崩坏3
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
 <script>
 function update_hitokoto(){
     $.get("https://v1.hitokoto.cn/?c=e", function (data, status) {
@@ -185,20 +256,19 @@ update_hitokoto();
 <iframe style="position: absolute!important;bottom: 0!important; right: 0!important;z-index: 99999!important;" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&;;auto=0&height=66&amp;id=27928001"></iframe>
 
 <a href="https://travellings.now.sh/" target="blank" title="开往-友链接力" class="travelling"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a> | <a class="rss" href="https://lxcl.gq/atom.xml" target="_blank">RSS</a>
+  </div>
 </div>
 
 
     </div>
-    <script type="application/javascript">
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
 
 hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
 
 </script>
 
