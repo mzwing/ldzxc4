@@ -4,14 +4,11 @@
     <meta charset="utf-8" >
 
 <title>资源 | 洛仙璃の幻梦</title>
-<meta name="description" content="">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://lxcl.gq/favicon.ico?v=1599301864588">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://lxcl.gq/favicon.ico?v=1599302116387">
 <link rel="stylesheet" href="https://lxcl.gq/styles/main.css">
 
 
@@ -21,128 +18,73 @@
 
   
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
+
+    <meta name="description" content="欢迎光临我的资源分享站！
+🤝 下载站投递说明：
+投递资源一律请投递到我的邮箱，邮箱地址详见“关于”。
+邮件标题必须为“投递：XXX（填写要投递的名称）。邮件内容包括：名称；简介；分享者；文件下载地址：推荐使用百度网盘或坚果云，有蓝奏云的话..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
-  
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="https://lxcl.gq">洛仙璃の幻梦</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://lxcl.gq">
+        <img src="https://lxcl.gq/images/avatar.png?v=1599302116387" class="site-logo">
+        <h1 class="site-title">洛仙璃の幻梦</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-          <li>
-            
-              <a href="https://lxcl.gq" class="menu">
-                首页
-              </a>
-            
-          </li>
+          <a href="https://lxcl.gq" class="site-nav">
+            首页
+          </a>
         
-          <li>
-            
-              <a href="https://lxcl.gq/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
+      
         
-          <li>
-            
-              <a href="https://lxcl.gq/post/friend" class="menu">
-                友链
-              </a>
-            
-          </li>
+          <a href="https://lxcl.gq/tags" class="site-nav">
+            标签
+          </a>
         
-          <li>
-            
-              <a href="https://lxcl.gq/post/gtdts" class="menu">
-                投稿箱
-              </a>
-            
-          </li>
+      
         
-          <li>
-            
-              <a href="https://lxcl.gq/post/share" class="menu">
-                资源
-              </a>
-            
-          </li>
+          <a href="https://lxcl.gq/post/friend" class="site-nav">
+            友链
+          </a>
         
-          <li>
-            
-              <a href="https://lxcl.gq/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
+      
         
-      </ul>
+          <a href="https://lxcl.gq/post/gtdts" class="site-nav">
+            投稿箱
+          </a>
+        
+      
+        
+          <a href="https://lxcl.gq/post/share" class="site-nav">
+            资源
+          </a>
+        
+      
+        
+          <a href="https://lxcl.gq/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
     </div>
   </div>
-</nav>
-
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <article class="article">
-            <h1>资源</h1>
-            <p class="article-meta">
-              2020-08-06
-              
-            </p>
-            
-            <div class="post-content">
-              <p>欢迎光临我的资源分享站！</p>
-<h2 id="下载站投递说明">🤝 下载站投递说明：</h2>
-<p>投递资源一律请投递到我的邮箱，邮箱地址详见“关于”。<br>
-邮件标题必须为“投递：XXX（填写要投递的名称）。邮件内容包括：名称；简介；分享者；文件下载地址：推荐使用百度网盘或坚果云，有蓝奏云的话最好用蓝奏云，当然有别的高速下载链接也行（或者直接发附件给我）</p>
-<h2 id="学习资源分享">🤝 学习资源分享：</h2>
-<p>1.名称：中图版地理八年级下册课件：<br>
-简介：暑假作业有一部分八年级下册的地理，就在这里分享一下课件吧<br>
-分享者：LZW<br>
-下载地址：<br>
-百度云：链接：<a href="https://pan.baidu.com/s/1Jdf_K4BA5o5ECoODCI6TOA">点击跳转</a>   提取码：5ibx<br>
-坚果云：链接：<a href="https://www.jianguoyun.com/p/DfGPtE0Qpqq0CBiy7LAD">点击跳转</a></p>
-
-            </div>
-          </article>
-        </div>
-        <div class="paper" data-aos="fade-in">
-          
-        </div>
-        
-          
-            <div class="paper" data-aos="fade-in">
-              <div id="gitalk-container"></div>
-            </div>
-          
-
-          
-        
-      </div>
-
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="https://lxcl.gq/images/avatar.png?v=1599301864588" class="no-responsive avatar">
-    <div class="text-muted"></div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
     <div class="social-container">
       
         
@@ -156,67 +98,11 @@
         
       
     </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="https://lxcl.gq/post/gtdts/">投稿箱</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://lxcl.gq/post/zbbh/">【转】《崩坏国记最终章：星与你消失之日》先行CG发布！</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://lxcl.gq/post/share/">资源</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://lxcl.gq/post/welcome/">欢迎</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://lxcl.gq/post/friend/">友链</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://lxcl.gq/post/about/">关于</a>
-            </li>
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="https://lxcl.gq/tag/bvTJulZqg/" class="badge secondary">
-          崩坏3
-        </a>
+    <div class="site-description">
       
     </div>
-  </div>
-  <div class="paper">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <div class="site-footer">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
 <script>
 function update_hitokoto(){
     $.get("https://v1.hitokoto.cn/?c=e", function (data, status) {
@@ -233,21 +119,63 @@ update_hitokoto();
 <iframe style="position: absolute!important;bottom: 0!important; right: 0!important;z-index: 99999!important;" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&;;auto=0&height=66&amp;id=27928001"></iframe>
 
 <a href="https://travellings.now.sh/" target="blank" title="开往-友链接力" class="travelling"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a> | <a class="rss" href="https://lxcl.gq/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
 
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">资源</h2>
+            <div class="post-date">2020-08-06</div>
+            
+            <div class="post-content" v-pre>
+              <p>欢迎光临我的资源分享站！</p>
+<h2 id="下载站投递说明">🤝 下载站投递说明：</h2>
+<p>投递资源一律请投递到我的邮箱，邮箱地址详见“关于”。<br>
+邮件标题必须为“投递：XXX（填写要投递的名称）。邮件内容包括：名称；简介；分享者；文件下载地址：推荐使用百度网盘或坚果云，有蓝奏云的话最好用蓝奏云，当然有别的高速下载链接也行（或者直接发附件给我）</p>
+<h2 id="学习资源分享">🤝 学习资源分享：</h2>
+<p>1.名称：中图版地理八年级下册课件：<br>
+简介：暑假作业有一部分八年级下册的地理，就在这里分享一下课件吧<br>
+分享者：LZW<br>
+下载地址：<br>
+百度云：链接：<a href="https://pan.baidu.com/s/1Jdf_K4BA5o5ECoODCI6TOA">点击跳转</a>   提取码：5ibx<br>
+坚果云：链接：<a href="https://www.jianguoyun.com/p/DfGPtE0Qpqq0CBiy7LAD">点击跳转</a></p>
+
+            </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
+      </div>
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
 <script type="application/javascript">
 
 AOS.init();
 
-hljs.initHighlightingOnLoad()
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
+
+
 
 
 
