@@ -1,120 +1,163 @@
-
 <!DOCTYPE html>
-<html>
-  <head>
-    
-<meta charset="utf-8" >
+<html lang="zh-CN">
 
-<title>投稿箱 | 洛仙璃の幻梦</title>
+<head>
+  <meta charset="UTF-8" />
+<title>投稿箱 - 洛仙璃の幻梦</title>
 <meta name="description" content="">
-
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://lxcl.gq/favicon.ico?v=1599303491188">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://lxcl.gq/styles/main.css">
+<link type='text/css' rel='stylesheet' href='https://lxcl.gq/styles/main.css' media='screen' />
+<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css">
+<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script type="text/javascript" src='https://lxcl.gq/media/scripts/jquery.js'></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+</head>
+
+<body>
+  <div class="layout theme-dark">
+    <div class="layout-header">
+
+	<div class="layout-header-main">
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-9">
+
+					<div class="navbar">
+
+						<div class="logo">
+							<a href="https://lxcl.gq">
+								<img class="logo"
+									src="https://lxcl.gq/media/images/site_avatar.png?v=1599312640974"
+									alt="">
+							</a>
+						</div>
+
+						<div class="menu d-md-inline-block d-none">
+							<ul class="layout-navigation-list">
+								
+								<li class="layout-navigation-item"><a title="首页"
+										href="https://lxcl.gq">首页</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="标签"
+										href="https://lxcl.gq/tags">标签</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="友链"
+										href="https://lxcl.gq/post/friend">友链</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="投稿箱"
+										href="https://lxcl.gq/post/gtdts">投稿箱</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="资源"
+										href="https://lxcl.gq/post/share">资源</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="关于"
+										href="https://lxcl.gq/post/about">关于</a>
+								</li>
+								
+							</ul>
+						</div>
+
+						<div class="item d-md-inline-block d-none">
+							<div class="search-icon">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</div>
 
 
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
 
-  
+						<div class="d-md-inline-block d-none">
+							<div class="search-lightbox">
+								<div class="search-body">
+
+									<form id="gridea-search-form" data-update="1599312640974" action="/search/" class="search-form">
+										<input type="text" name="q" id="s" value="" class="search-field" placeholder="请输入搜索关键词" aria-label="请输入搜索关键词" required="">
+										<button type="submit" class="submit" aria-label="Submit">
+											<i class="fa fa-search" aria-hidden="true"></i>
+										</button>
+									</form>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="nav d-md-none d-inline-block">
+							<div class="trigger">
+								<i class="fa fa-bars layout-btn-toggle" aria-hidden="true"></i>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
+		</div>
+	</div>
 
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://lxcl.gq">
-        <img class="avatar" src="https://lxcl.gq/images/avatar.png?v=1599303491188" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://lxcl.gq">
-        <h1 class="site-title">洛仙璃の幻梦</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
+</div>
+    <div class="layout-collapse d-md-none">
+	<div class="layout-collapse-main">
+		<ul class="layout-collapse-list">
+			
+			<li class="layout-collapse-item"><a title="首页" href="https://lxcl.gq">首页</a></li>
+			
+			<li class="layout-collapse-item"><a title="标签" href="https://lxcl.gq/tags">标签</a></li>
+			
+			<li class="layout-collapse-item"><a title="友链" href="https://lxcl.gq/post/friend">友链</a></li>
+			
+			<li class="layout-collapse-item"><a title="投稿箱" href="https://lxcl.gq/post/gtdts">投稿箱</a></li>
+			
+			<li class="layout-collapse-item"><a title="资源" href="https://lxcl.gq/post/share">资源</a></li>
+			
+			<li class="layout-collapse-item"><a title="关于" href="https://lxcl.gq/post/about">关于</a></li>
+			
+
+		</ul>
+	</div>
 </div>
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="https://lxcl.gq" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="https://lxcl.gq/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="https://lxcl.gq/post/friend" class="menu purple-link">
-            友链
-          </a>
-        
-      
-        
-          <a href="https://lxcl.gq/post/gtdts" class="menu purple-link">
-            投稿箱
-          </a>
-        
-      
-        
-          <a href="https://lxcl.gq/post/share" class="menu purple-link">
-            资源
-          </a>
-        
-      
-        
-          <a href="https://lxcl.gq/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
+    <div class="layout-content">
+      <div class="layout-content-main">
+        <div class="container">
+          <div class="row justify-content-lg-center">
+            <div class="col-12 col-lg-9">
+              <div class="layout-post">
+                <div class="layout-post-body">
+                  <div class="row">
 
-
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">投稿箱</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2020-08-30</span>
-            
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://lxcl.gq/tag/mWmngCFdI/">
-                    deepin
-                    
-                  </a>
-                
-              </span>
-            
-          </div>
-          <div class="post-content">
-            <p>这是一个我用来投递deepin软件的投稿箱（其实是我投稿，看到本破站的各位大佬打包，因为我还不会打这些包……），领稿时请在下方评论区说一声，谢谢！<br>
+                    <div class="col-12 col-lg-10">
+                      <div class="layout-post-main m-right m-md-right">
+                        <div class="layout-post-header">
+                          <h1 class="layout-post-title">投稿箱</h1>
+                          <div class="layout-post-meta">
+                            <div class="item">
+                               <a href="https://lxcl.gq/tag/mWmngCFdI/" class="post--keyword"
+                                data-title="deepin" data-type="post_tag" data-term-id="39">deepin</a>
+                              
+                            </div>
+                            <div class="item">
+                              <span>2020-08-30</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="layout-post-content">
+                          <div class="layout-post-item">
+                            
+                            <p>这是一个我用来投递deepin软件的投稿箱（其实是我投稿，看到本破站的各位大佬打包，因为我还不会打这些包……），领稿时请在下方评论区说一声，谢谢！<br>
 除特殊说明外，其余在此领稿并打包好的deb请送上Spark（因为审核比较快）</p>
 <h2 id="投稿箱">⛹ 投稿箱</h2>
 <p>1.软件名：奶牛快传<br>
@@ -146,36 +189,65 @@
 推荐打包指数：★★★<br>
 任务状态：未领稿</p>
 
+                          </div>
+                        </div>
+                        <div class="layout-post-social">
+                          <div class="item reader">
+                            <div id="/post/gtdts/" class="leancloud-visitors view"
+                              data-flag-title="投稿箱">
+                              <span class="post-meta-item-text">阅读 </span>
+                              <span class="leancloud-visitors-count"></span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="layout-post-navigation">
+                          <div class="navigation-list">
+                            
+                          </div>
+                        </div>
+
+                        <div class="layout-comments"></div>
+                        
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-lg-2 d-none d-lg-block">
+                      <div class="layout-post-sidebar">
+                        <div class="layout-sidebar-item">
+                          <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E6%8A%95%E7%A8%BF%E7%AE%B1">⛹ 投稿箱</a></li>
+</ul>
+</li>
+</ul>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
-        
       </div>
+    </div>
 
-      
-        
-          <div id="gitalk-container"></div>
-        
+    <div class="layout-totop d-none"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
 
-        
-      
+    	<div class="layout-footer">
 
-      <div class="site-footer">
-  <div class="slogan"></div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-9">
+					<div class="footer">
+						<div class="row">
+							<div class="col-12 col-md-9">
+								<div class="footer-copy">
+									
+									<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
 <script>
 function update_hitokoto(){
     $.get("https://v1.hitokoto.cn/?c=e", function (data, status) {
@@ -191,49 +263,46 @@ update_hitokoto();
 
 <iframe style="position: absolute!important;bottom: 0!important; right: 0!important;z-index: 99999!important;" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&;;auto=0&height=66&amp;id=27928001"></iframe>
 
-<a href="https://travellings.now.sh/" target="blank" title="开往-友链接力" class="travelling"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a> | <a class="rss" href="https://lxcl.gq/atom.xml" target="_blank">RSS</a>
-</div>
+<a href="https://travellings.now.sh/" target="blank" title="开往-友链接力" class="travelling"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a>
+									<div class="footer-icp d-none d-sm-inline-block">
+										<span class="px-2">⋅</span>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 d-none d-md-block">
+								<div class="footer-links">
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
+	</div>
 
-    </div>
-    <script type="application/javascript">
+	<script type="text/javascript" src='https://lxcl.gq/media/scripts/main.js'></script>
+	
 
-hljs.initHighlightingOnLoad()
+  </div>
+</body>
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
-
-      var gitalk = new Gitalk({
-        clientID: 'aa77f2e2a5ee0834fc68',
-        clientSecret: '3486878523cbb265805aa3b63f5881eeabc7e73f',
-        repo: 'comments',
-        owner: 'mzwing',
-        admin: ['mzwing'],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
-
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
-
-
-
-
-  </body>
 </html>
