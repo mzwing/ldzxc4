@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lxcl.gq</id>
+    <id>https://mzwing.gitee.io</id>
     <title>洛仙璃の幻梦</title>
-    <updated>2020-09-12T15:54:04.055Z</updated>
+    <updated>2020-09-13T01:40:52.703Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lxcl.gq"/>
-    <link rel="self" href="https://lxcl.gq/atom.xml"/>
-    <logo>https://lxcl.gq/images/avatar.png</logo>
-    <icon>https://lxcl.gq/favicon.ico</icon>
+    <link rel="alternate" href="https://mzwing.gitee.io"/>
+    <link rel="self" href="https://mzwing.gitee.io/atom.xml"/>
+    <logo>https://mzwing.gitee.io/images/avatar.png</logo>
+    <icon>https://mzwing.gitee.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 洛仙璃の幻梦</rights>
     <entry>
         <title type="html"><![CDATA[来了，来了，它真的来了！——Deepin V20正式版全新发布！]]></title>
-        <id>https://lxcl.gq/post/dev2/</id>
-        <link href="https://lxcl.gq/post/dev2/">
+        <id>https://mzwing.gitee.io/post/dv2/</id>
+        <link href="https://mzwing.gitee.io/post/dv2/">
         </link>
         <updated>2020-09-12T15:47:34.000Z</updated>
         <content type="html"><![CDATA[<p>原文网址：<a href='https://www.deepin.org/zh/2020/09/11/deepin-20-innovation-is-ongoing/'>https://www.deepin.org/zh/2020/09/11/deepin-20-innovation-is-ongoing/</a></p>
@@ -37,8 +37,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[【转】《崩坏国记最终章：星与你消失之日》先行CG发布！]]></title>
-        <id>https://lxcl.gq/post/zbbh/</id>
-        <link href="https://lxcl.gq/post/zbbh/">
+        <id>https://mzwing.gitee.io/post/zbbh/</id>
+        <link href="https://mzwing.gitee.io/post/zbbh/">
         </link>
         <updated>2020-08-14T06:36:37.000Z</updated>
         <content type="html"><![CDATA[<p>转自bilibili  up主  崩坏3</a></p>
@@ -46,8 +46,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[欢迎]]></title>
-        <id>https://lxcl.gq/post/welcome/</id>
-        <link href="https://lxcl.gq/post/welcome/">
+        <id>https://mzwing.gitee.io/post/welcome/</id>
+        <link href="https://mzwing.gitee.io/post/welcome/">
         </link>
         <updated>2020-08-05T10:58:43.000Z</updated>
         <content type="html"><![CDATA[<p>欢迎来到<a href="https://lxcl.gq">我的博客</a>！<br>
