@@ -3,7 +3,7 @@
   <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>罗定中学2019届初中4班</title>
-<link rel="shortcut icon" href="https://ldzxc4.gq/favicon.ico?v=1602936140148">
+<link rel="shortcut icon" href="https://ldzxc4.gq/favicon.ico?v=1602936696151">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://ldzxc4.gq/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="罗定中学2019届初中4班 - Atom Feed" href="https://ldzxc4.gq/atom.xml">
@@ -18,7 +18,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://ldzxc4.gq">
-  <img class="avatar" src="https://ldzxc4.gq/images/avatar.png?v=1602936140148" alt="">
+  <img class="avatar" src="https://ldzxc4.gq/images/avatar.png?v=1602936696151" alt="">
   </a>
   <h1 class="site-title">
     罗定中学2019届初中4班
@@ -78,7 +78,20 @@
         </div>
 
         <div class="site-footer">
-  <script id="ilt" src="https://player.ilt.me/player/js/player.js" key="981dc57c5b5047b59bd4fbd8aced74d1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<script>
+function update_hitokoto(){
+    $.get("https://v1.hitokoto.cn/?c=e", function (data, status) {
+        $("#qaq").html("");
+        $(".content-container").html("<p id='qaq'><br /><br />「"+data.hitokoto+"」<a href='#' onclick='update_hitokoto()'>换一条</a></p>"+$(".content-container").html());
+    });
+
+}
+
+update_hitokoto();
+</script>
+
+<script id="ilt" src="https://player.ilt.me/player/js/player.js" key="981dc57c5b5047b59bd4fbd8aced74d1"></script>
   <a class="rss" href="https://ldzxc4.gq/atom.xml" target="_blank">
     <i class="ri-rss-line"></i> RSS
   </a>
