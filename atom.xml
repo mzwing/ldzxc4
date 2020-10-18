@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ldzxc4.gq</id>
     <title>罗定中学2019届初中4班</title>
-    <updated>2020-10-17T13:07:59.695Z</updated>
+    <updated>2020-10-18T03:24:56.062Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ldzxc4.gq"/>
     <link rel="self" href="https://ldzxc4.gq/atom.xml"/>
@@ -11,14 +11,37 @@
     <icon>https://ldzxc4.gq/favicon.ico</icon>
     <rights>All rights reserved 2020, 罗定中学2019届初中4班</rights>
     <entry>
+        <title type="html"><![CDATA[评论系统Gitalk的使用方法]]></title>
+        <id>https://ldzxc4.gq/post/ping-lun-xi-tong-gitalk-de-shi-yong-fang-fa/</id>
+        <link href="https://ldzxc4.gq/post/ping-lun-xi-tong-gitalk-de-shi-yong-fang-fa/">
+        </link>
+        <updated>2020-10-18T01:59:43.000Z</updated>
+        <content type="html"><![CDATA[<p>1.打开<a href='https://github.com'>Github</a>页面<br>
+2.</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[欢迎]]></title>
         <id>https://ldzxc4.gq/post/welcome/</id>
         <link href="https://ldzxc4.gq/post/welcome/">
         </link>
         <updated>2020-10-01T06:53:12.000Z</updated>
-        <content type="html"><![CDATA[<p>欢迎来到罗定中学2020届初中4班的班级网站！<br>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到罗定中学2019届初中4班的班级网页！🤝</p>
+</blockquote>
+<h2 id="欢迎">🤝 欢迎</h2>
+<p>欢迎来到罗定中学2020届初中4班的班级网站！<br>
 在这里。可以公布一些班级动态，班级信息之类的东西<br>
-评论功能暂未上线，敬请期待……</p>
+评论功能基于Gitalk实现，需要登录<a href='https://github.com'>Github</a>账号才能使用</p>
+<h2 id="目前上线的功能有">🤝 目前上线的功能有：</h2>
+<p>1.评论功能<br>
+2.周末作业<br>
+3.音乐播放器（基于<a href='https://player.ilt.me'>宅音乐播放器</a>实现，支持多音乐转换与歌词）</p>
+<h2 id="下个版本规划">🤝 下个版本规划：</h2>
+<p>1.高速下载方案α（基于<a href='https://www.natfrp.com'>Sakura Frp</a>搭建的服务器下载）<br>
+2.高速下载方案β（使用外网下载）<br>
+3.分享文件页面<br>
+4.直播间</p>
 ]]></content>
     </entry>
 </feed>
