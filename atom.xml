@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ldzxc4.gq</id>
     <title>罗定中学2019届初中4班</title>
-    <updated>2020-10-18T03:24:56.062Z</updated>
+    <updated>2020-10-24T15:29:50.985Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ldzxc4.gq"/>
     <link rel="self" href="https://ldzxc4.gq/atom.xml"/>
@@ -12,12 +12,14 @@
     <rights>All rights reserved 2020, 罗定中学2019届初中4班</rights>
     <entry>
         <title type="html"><![CDATA[评论系统Gitalk的使用方法]]></title>
-        <id>https://ldzxc4.gq/post/ping-lun-xi-tong-gitalk-de-shi-yong-fang-fa/</id>
-        <link href="https://ldzxc4.gq/post/ping-lun-xi-tong-gitalk-de-shi-yong-fang-fa/">
+        <id>https://ldzxc4.gq/post/htugtk/</id>
+        <link href="https://ldzxc4.gq/post/htugtk/">
         </link>
         <updated>2020-10-18T01:59:43.000Z</updated>
-        <content type="html"><![CDATA[<p>1.打开<a href='https://github.com'>Github</a>页面<br>
-2.</p>
+        <content type="html"><![CDATA[<ol>
+<li>打开<a href='https://github.com'>Github</a>页面</li>
+<li></li>
+</ol>
 ]]></content>
     </entry>
     <entry>
@@ -31,17 +33,22 @@
 </blockquote>
 <h2 id="欢迎">🤝 欢迎</h2>
 <p>欢迎来到罗定中学2020届初中4班的班级网站！<br>
-在这里。可以公布一些班级动态，班级信息之类的东西<br>
+这里，是罗定中学2019届初中4班的班级网上公告栏<br>
 评论功能基于Gitalk实现，需要登录<a href='https://github.com'>Github</a>账号才能使用</p>
 <h2 id="目前上线的功能有">🤝 目前上线的功能有：</h2>
-<p>1.评论功能<br>
-2.周末作业<br>
-3.音乐播放器（基于<a href='https://player.ilt.me'>宅音乐播放器</a>实现，支持多音乐转换与歌词）</p>
+<ol>
+<li>评论功能</li>
+<li>周末作业</li>
+<li>音乐播放器（基于<a href='https://player.ilt.me'>宅音乐播放器</a>实现，支持多音乐播放与歌词显示，不足之处是换一次页面又会重新播放）</li>
+</ol>
 <h2 id="下个版本规划">🤝 下个版本规划：</h2>
-<p>1.高速下载方案α（基于<a href='https://www.natfrp.com'>Sakura Frp</a>搭建的服务器下载）<br>
-2.高速下载方案β（使用外网下载）<br>
-3.分享文件页面<br>
-4.直播间</p>
+<ol>
+<li>每日一言（使用一言api）</li>
+<li>高速下载方案α（使用外网下载，需下载客户端）</li>
+<li>高速下载方案β（基于<a href='https://www.natfrp.com'>Sakura Frp</a>搭建的服务器下载）</li>
+<li>资源页面</li>
+<li>直播间（基于<a href='https://www.natfrp.com'>Sakura Frp</a>搭建的服务器+SRS直播推流服务搭建）</li>
+</ol>
 ]]></content>
     </entry>
 </feed>
